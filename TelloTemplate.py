@@ -44,9 +44,9 @@ recvThread.start()
 # CREATE FUNCTIONS HERE....
 
 
-print("\nFirst & Last Names")
-print("Program Name: ")
-print("Date: ")
+print("\nMathew Smith & CorDae Clark")
+print("Program Name: Hoop Compettition"
+print("Date: 4.20.2026")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
 ready = input('\nAre you ready to take flight: ')
@@ -59,8 +59,48 @@ try:
         sendmsg('command', 0)
         sendmsg('takeoff')
 
-        # Review the (SDK) Software Development Kit resource for Drone Commands
-        # Delete these comments before writing your program
+        # Cpmmit Message: First Hoop - Stable 
+        # SDK GO Command
+        # Don't forget to take videos of this portion of the comp.
+        # Make sure I put the video in the Repository 
+        # Commit Message: First Hoop Video in Repository
+        # Write code below
+
+
+
+
+        # Cpmmit Message: Second Hoop - Stable 
+        # SDK GO Command
+        # Don't forget to take videos of this portion of the comp.
+        # Make sure I put the video in the Repository 
+        # Commit Message: Second Hoop Video in Repository
+        # Write code below
+
+
+
+        # Cpmmit Message: Third Hoop - Stable 
+        # SDK CURVE Command
+        # Don't forget to take videos of this portion of the comp.
+        # Make sure I put the video in the Repository 
+        # Commit Message: Third Hoop Video in Repository
+        # Write code below
+
+
+
+
+
+        # Cpmmit Message: Fourth Hoop - Stable 
+        # SDK GO Command
+        # Don't forget to take videos of this portion of the comp.
+        # Make sure I put the video in the Repository 
+        # Commit Message: Fourth Hoop Video in Repository
+        # Write code below
+
+
+
+
+        # Video entire Hoop Competition 
+        # Commit Message: Video of entire Hoop Competition in Repository 
 
         sendmsg('land')
 

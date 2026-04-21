@@ -30,7 +30,7 @@ def recv():
             break
 
 
-def sendmsg(msg, sleep = 6):
+def sendmsg(msg, sleep = 8):
     print("Sending: " + msg)
     msg = msg.encode(encoding="utf-8")
     sock.sendto(msg, tello_address)
@@ -66,7 +66,7 @@ try:
         # Commit Message: First Hoop Video in Repository
         # Write code below
         
-        sendmsg('forward 100')
+        sendmsg('forward 227')
 
 
 

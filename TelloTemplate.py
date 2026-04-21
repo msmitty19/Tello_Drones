@@ -30,7 +30,7 @@ def recv():
             break
 
 
-def sendmsg(msg, sleep = 6):
+def sendmsg(msg, sleep = 8):
     print("Sending: " + msg)
     msg = msg.encode(encoding="utf-8")
     sock.sendto(msg, tello_address)
@@ -45,7 +45,7 @@ recvThread.start()
 
 
 print("\nMathew Smith & CorDae Clark")
-print("Program Name: Hoop Compettition"
+print("Program Name: Hoop Compettition")
 print("Date: 4.20.2026")
 print("\n****CHECK YOUR TELLO WIFI ADDRESS****")
 print("\n****CHECK SURROUNDING AREA BEFORE FLIGHT****")
@@ -65,6 +65,8 @@ try:
         # Make sure I put the video in the Repository 
         # Commit Message: First Hoop Video in Repository
         # Write code below
+        
+        sendmsg('forward 227')
 
 
 

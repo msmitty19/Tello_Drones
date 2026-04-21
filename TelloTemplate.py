@@ -66,8 +66,9 @@ try:
         # Commit Message: First Hoop Video in Repository
         # Write code below
         
-        sendmsg('forward 227')
-
+        sendmsg('forward 230')
+        sendmsg('go ')
+        
 
 
 

@@ -66,8 +66,8 @@ try:
         # Commit Message: First Hoop Video in Repository
         # Write code below
         
-        sendmsg('forward 230')
-        sendmsg('go ')
+        sendmsg('forward 230', 8)
+        
         
 
 
@@ -78,6 +78,8 @@ try:
         # Make sure I put the video in the Repository 
         # Commit Message: Second Hoop Video in Repository
         # Write code below
+
+        sendmsg('go 160 -10 50 50', 8)
 
 
 

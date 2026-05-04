@@ -82,7 +82,7 @@ try:
         sendmsg('go 160 -10 50 50', 8)
 
 
-
+    
         # Cpmmit Message: Third Hoop - Stable 
         # SDK CURVE Command
         # Don't forget to take videos of this portion of the comp.
@@ -90,7 +90,8 @@ try:
         # Commit Message: Third Hoop Video in Repository
         # Write code below
 
-
+        sendmsg('curve 155 155 0 0 290 0 60', 8)
+        
 
 
 
